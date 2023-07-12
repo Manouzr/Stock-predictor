@@ -5,7 +5,7 @@ import pandas as pd
 import matplotlib.pyplot as plt
 
 # Importing the dataset
-dataset = pd.read_csv('Google_Stock_Price_Train.csv')
+dataset = pd.read_csv('exemple_train.csv')
 training_set = dataset.iloc[:, 1:2].values
 
 # Feature Scaling
